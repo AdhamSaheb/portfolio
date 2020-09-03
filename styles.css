@@ -1,0 +1,277 @@
+* {
+    margin:0 ;
+    padding : 0 ;
+    font-family:  Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container-fluid{
+    padding:0 
+    !important;
+    margin: 0 !important
+}
+
+body{
+    overflow-x: hidden; 
+
+}
+
+
+
+
+/* nabar styles */
+.navbar {
+
+    background-color: transparent;
+    /* margin : auto 5vw; */
+    padding :  0 5em !important ;
+}
+
+
+
+
+
+
+.nav-item {
+    margin-right: 5% auto
+}
+
+ .navbar a {
+    color: #7C7C7C;
+    font-size: 1em;
+    font-weight: 600;
+} 
+ .active a{
+    color: #008785;
+} 
+ .navbar a:hover {
+    color: #008785;
+    transition: 400ms ease-in-out;
+} 
+
+
+.navbar-toggler .navbar-toggler-icon  {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+
+  .vl {
+margin-top: 0.7em;
+    border-left: 2px solid rgb(189, 189, 189);
+    height: 1em;
+    display: inline;
+  }
+
+/* end of navbar styles */
+
+
+/* First section styles */
+
+.header{
+    margin-top: 5em;
+    position: relative;
+}
+
+
+.circle{
+    position: absolute;
+width: 25vw;
+z-index: 0;
+/* left :5vw; */
+}
+
+.person{
+    position: absolute;
+    z-index: 1;
+    width: 15vw;
+    left: 6vw;
+    top : 1em
+} 
+
+.bottom{
+    max-height: 30vh;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .circle{
+        width: 50vw;
+    left :30vw;
+    }
+    
+    .person{
+        left :40vw;
+        width: 30vw;
+
+    } 
+    .bottom{
+        margin-top: 10vh;
+    }
+    .vl {
+
+            display: none;
+          }
+
+  }
+
+
+/* Second Section */
+
+.about {
+    background-color: #28A8A6;
+    padding : 0 3%;
+
+}
+
+.about-text{
+    color: white;
+    font-size: 1em;
+    text-align: justify;
+    text-justify: inter-word;
+    letter-spacing: 1.1px;
+}
+
+.buttons{
+    margin-top:20%;
+}
+.mybutton{
+
+    width: 15em;
+    background-color: white;
+    border-radius: 1em !important;
+    border: 0.5px solid #28A8A6 !important;
+    color: #28A8A6;
+    margin-bottom: 2vw;
+
+}
+.mybutton:hover{
+
+    background-color: #28A8A6;
+    border: 0.5px solid white !important;
+transition: 300ms ease-in-out;
+color: white;
+}
+.mybutton2{
+
+    width: 15em;
+    background-color: #28A8A6;
+    border-radius: 1em !important;
+    border: 0.5px solid white !important;
+    color: white;
+    margin-bottom: 2vw;
+
+}
+.mybutton2:hover{
+
+    background-color: white;
+    border: 0.5px solid #28A8A6 !important;
+transition: 300ms ease-in-out;
+color: #28A8A6;
+}
+
+.mic-drop{
+    max-height: 50vh;
+    max-width: 33vw;
+}
+
+/* Third Section */
+.skills{
+    background-color: white;
+    padding : 3vh 3vw; 
+}
+
+.card {
+    padding:0.8em;
+    border-radius: 1em  !important;
+    border : 1px solid #28A8A6 !important;
+    margin-bottom: 5vh;
+    height: 55vh;
+}
+
+.card:hover{
+    filter: drop-shadow(0 -2mm 2mm rgb(0, 161, 210));
+    transition: 200ms ease-in-out;
+}
+
+.level{
+    color:#28A8A6;
+    margin-bottom: 5vh;
+}
+
+.skill-illustration{
+    max-width: 20em;
+}
+
+/* Forth Section */
+.education{
+    position: relative;
+    background-color: #28A8A6;
+    padding : 3vh 3vw; 
+    padding:0;
+    padding-top: 2vh;
+}
+
+.tail{
+    position: absolute;
+    bottom: 0;
+    max-height: 30vh;
+}
+
+.bzu-logo{
+    max-width: 25em;
+    margin-top: 10%;
+    transition: 1s;
+    position: relative;
+    right: 0;
+
+}
+
+
+
+.edu-text{
+    color: white;
+    font-family: 'Myanmar Sangam MN';
+}
+
+/* fifth Section */
+.CV {
+    padding:2em
+}
+
+.download-img{
+    max-width: 15em;
+}
+
+
+.CV-img{
+    max-width: 25em;
+}
+
+
+/* Footer */
+.footer{
+    background-color: #008785;
+    padding: 1.5em 1em;
+    font-size: 0.8rem;
+}
+
+.contact-card {
+    color: white;
+    font-size: 1em;
+}
+
+.contact-card img {
+max-width: 1.5rem;
+margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .CV-img{
+        max-width: 50vw;
+    }
+    .bzu-logo{
+        max-width: 50vw;
+    }
+
+}
