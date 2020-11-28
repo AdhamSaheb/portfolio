@@ -234,9 +234,45 @@ color: #28A8A6;
     font-family: 'Myanmar Sangam MN';
 }
 
-/* fifth Section */
+/*5th section*/
+.projects{
+    background-color: #28A8A6;
+
+    }
+
+
+.projectCard{
+    background-color: white;
+    padding: 1em;
+    border-radius: 1.5em;
+    margin: 1em 1.5em;
+}
+
+.projectCard:hover{
+    filter: drop-shadow(0 -2mm 2mm rgb(0, 161, 210));
+    transition: 200ms ease-in-out;
+}
+
+.projectTitle{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.framework{
+    width: 5em;
+}
+
+.hosting-link{
+    width: 3rem;
+    margin-right : 0.5rem;
+    cursor: pointer;
+}
+
+/* 6th Section */
 .CV {
-    padding:2em
+    padding:2em;
+    background-color: white;
+    
 }
 
 .download-img{
